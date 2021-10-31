@@ -56,10 +56,10 @@ console.log("2.f. variabel b : ", b)
 
 let arrData = ['Jeruk', 'Pepaya', 'Mangga', 'Nenas', 'Duku'];
 let buah = 'Apel';
-arrData.push(buah);
+let newArr = arrData.push(buah);
 console.log("3.a. Array baru adalah : ", arrData)
 
-let newArr = arrData.splice(2, 1)
+let newArr1 = arrData.splice(2, 1)
 console.log("3.b. Array baru setelah di remove index 2 : ", arrData)
 
 // 4. Object Data
