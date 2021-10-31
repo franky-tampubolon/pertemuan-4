@@ -77,3 +77,17 @@ let obj2 = {
 }
 
 console.log("4.a. Harga total Rp. ", new Intl.NumberFormat('id-ID', { maximumSignificantDigits: 3 }).format(obj1.harga + obj2.harga))
+
+
+function mesinPembuatKue(a, b, c) {
+
+    let number = 0;
+    if (a) number += a;
+    if (b) number += b;
+    if (c) number += c;
+
+    return number;
+
+}
+
+console.log('mesin Pembuat kue : ', mesinPembuatKue(14, 266));
