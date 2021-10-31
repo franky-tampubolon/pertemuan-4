@@ -38,7 +38,7 @@ let number = function (a, b) {
     console.log("2.e. Hasil pangkat : ", Math.pow(a, b));
 }
 
-number(5, 3);
+number(1204, 309);
 
 let a = 3;
 let b = 6;
@@ -76,4 +76,4 @@ let obj2 = {
     berat: "0,5 kg"
 }
 
-console.log("4.a. Harga total Rp. ", new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(obj1.harga + obj2.harga))
+console.log("4.a. Harga total Rp. ", new Intl.NumberFormat('id-ID', { maximumSignificantDigits: 3 }).format(obj1.harga + obj2.harga))
